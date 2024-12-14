@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <title>Student Portal</title>
+        <link rel="stylesheet" href="../CSS/home.css"/>
+        <script src="../JS/home.js"></script>
+    </head>
+    <body>
+        <div id = "heading">
+            <div id="centerheading">Welcome To Your Dashboard</div>           
+            <a href="index.html">Sign Out</a>
+            
+        </div>
+        <div id = "main">
+            <div id = "personal">
+                <h2>Personal Information</h2>
+                <p id = "name"><b>Name: </b></p>
+                <p id = "dob"><b>Date of Birth: </b></p>
+                <p id = "address"><b>Address: </b></p>
+                <p id="email"><b>Email: </b> </p>
+                <p id = "phone"><b>Phone: </b></p>
+                <button onclick="editInformation()">Edit</button>
+                
+            </div>
+
+            <div id = "management">
+                <h2>Class Management</h2>
+                <button onclick="addClass()">Add Class</button><br>
+                <button onclick="dropClass()">Drop Class</button><br>
+            </div>
+
+            <div id="schedule">
+                <h2>Your Schedule</h2>
+                
+                <button onclick="viewCourses()">View Schedule</button>
+            </div>
+
+        </div>
+    </body>
+
+</html>

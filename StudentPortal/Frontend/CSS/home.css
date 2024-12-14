@@ -1,0 +1,83 @@
+body{
+    
+    margin: 0;
+}
+
+#heading{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(52, 52, 145);
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: large;
+    margin-left: auto;
+}
+
+#centerheading{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#main{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    height: 35vh;
+
+    
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+#personal{
+    width: 30vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#management{
+    width: 30vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#schedule{
+    width: 30vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(52, 52, 145);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 2px;
+}

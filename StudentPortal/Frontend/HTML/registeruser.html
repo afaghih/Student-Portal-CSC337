@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../JS/register.js"></script>
+</head>
+<body>
+    <div id="heading"> Create Your Account</div>
+    <form onsubmit="registerUser(event)">
+        <h2>Sign Up</h2>
+        <p>Email:</p>
+        <input type="email" id="email" name="email"/>
+        <p>Username:</p>
+        <input type="text" id = "username" name ="username"/>
+        <p>Password:</p>
+        <input type="password" id = "password" name="password"/>
+        <p>Re-enter Password:</p>
+        <input type="password" id="cnfpassword" name="cnfpassword"/>
+        <br><br>
+        <input type="submit" value="Sign Up"/>
+        <br>
+        <a href="index.html">Back to Login</a>
+    </form>
+</body>
+</html>

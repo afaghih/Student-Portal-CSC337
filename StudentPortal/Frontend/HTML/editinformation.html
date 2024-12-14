@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="../CSS/editinformation.css">
+    <script src="../JS/editInfromation.js"></script>
+</head>
+<body>
+    <div id = "heading">
+        <button onclick="goToHome()" id = "dashboard">Back To Dashboard</button>
+        <div id="centerheading">Personal Details</div>           
+        <a href="index.html">Sign Out</a>    
+    </div>
+    <form  onsubmit="editPersonalDetails(event)">
+        <h2>Details</h2>
+        <p>Name:</p>
+        <input type="text" id="name" name="name" required/>
+        <p>Date of Birth:</p>
+        <input type="date" id = "dob" name ="dob" required/>
+        <p>Address:</p>
+        <input type="text" id = "address" name="address" required/>
+        <p>Phone:</p>
+        <input type="text" id="phone" name="phone" required/>
+        <br><br>
+        <input type="submit" value="Save"/>
+        <br>
+    </form>
+</body>
+</html>
